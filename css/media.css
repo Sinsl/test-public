@@ -1,0 +1,303 @@
+@media (max-width: 1200px) {
+	
+	/* ------------------ HEADER --------------------- */
+	.header {
+		padding-top: 40px;
+		padding-bottom: 112px;
+		background-position: center;
+	}
+	.header-container {
+		padding: 0 35px;
+	}
+	.header-nav {
+		display: none;
+	}
+	.header-nav-mobile {
+		display: block;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	.btn-menu {
+		width: 23px;
+		position: relative;
+		background-color: #ffffff;
+		height: 3px;
+	}
+	.btn-menu::after {
+		content: "";
+		width: 23px;
+		position: absolute;
+		top: -7px;
+		background-color: #ffffff;
+		height: 3px;
+	}
+	.btn-menu::before {
+		content: "";
+		width: 23px;
+		bottom: -7px;
+		position: absolute;
+		background-color: #ffffff;
+		height: 3px;
+	}
+	.header-title {
+		max-width: 700px;
+		width: 100%;
+		padding: 0 35px;
+		margin: 82px auto 0;
+	}
+	.header-title h1 {
+		font-size: 40px;
+		line-height: 1.4;
+	}
+	/* ------------------- ЗАГОЛОВКИ ----------------------- */
+	h2 {
+		font-size: 18px;
+	}
+	h3 {
+		font-size: 17px;
+	}
+	h4, h5 {
+		font-size: 14px;
+	}
+	/* ------------------- popup ----------------------- */
+
+	.close-popup{
+		position: absolute;
+		width: 27px;
+		height: 27px;
+		top: -35px;
+		background-size: 27px;
+	}
+	/* ------------------- ТРЕНД ----------------------- */
+	.popular-posts-title  {
+		margin-top: 45px;
+		margin-bottom: 18px;
+	}
+	.popular-posts-list {
+		flex-wrap: wrap;
+	}
+	/* ------------------- СПИСОК ПОСТОВ ----------------------- */
+	.post {
+		max-width: 100%;
+		padding: 17px 35px 35px;
+	}
+	.posts-list {
+		width: 100%;
+		margin-right: 35px;
+	}
+	.post-list-item {
+		flex-direction: column;
+		margin-top: 45px;
+		padding-bottom: 8px;
+	}
+	.post-list-item:nth-last-child(n+2) {
+		border-bottom: 3px solid #eeeeee;
+	}
+	.post-thumbnail {
+		width: 100%;
+	}
+	.post-contents {
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	.post-content {
+		margin-top: 30px;
+	}
+	/* ------------------- ИЗДЕЛИЯ ----------------------- */
+	.products {
+		max-width: 100%;
+		padding: 5px 35px 65px;
+	}
+	.products-list {
+		flex-wrap: wrap;
+	}
+	.product {
+		width: calc((100% - 22px)/2);
+	}
+	.product:nth-child(n+2) {
+		margin-left: 0;
+	}
+	.product:nth-child(even) {
+		margin-left: 22px;
+	}
+	.product:nth-child(n+3) {
+		margin-top: 27px;
+	}
+	/* ------------------- ФУТЕР ----------------------- */
+	.social {
+		max-width: 100%;
+		margin: 0 35px;
+	}
+	.copyright {
+		padding: 48px 10px 40px;
+	}
+}
+@media (max-width: 640px) {
+	/* ------------------ HEADER --------------------- */
+	.header {
+		padding-top: 40px;
+		padding-bottom: 210px;
+		background-position: 25%;
+	}
+	.header-container {
+		padding: 0 15px;
+		flex-direction: column-reverse;
+	}
+	.header-nav-mobile {
+		width: 100%;
+	}
+	.btn-menu {
+		float: right;
+	}
+	.header-logo {
+		width: 100%;
+		padding-top: 180px;
+		text-align: center;
+	}
+	.header-logo img {
+		width: 270px;
+	}
+	.header-title {
+		max-width: 360px;
+		width: 100%;
+		padding: 0 30px;
+		margin: 30px auto 0;
+	}
+	.header-title h1 {
+		font-size: 26px;
+	}
+	/* ------------------- ЗАГОЛОВКИ ----------------------- */
+	h2, h3, h4 {
+		font-size: 16px;
+	}
+	/* ------------------- popup ----------------------- */
+	
+	.form-popup {
+		margin: 50px auto;
+		width: 100%;
+		max-width: 330px;
+	}
+	/* ------------------- ТРЕНД ----------------------- */
+	.popular-posts-title  {
+		margin-top: 40px;
+		margin-bottom: 23px;
+	}
+	.popular-posts-list {
+		flex-wrap: wrap;
+	}
+	/* ------------------- СПИСОК ПОСТОВ ----------------------- */
+	.post {
+		max-width: 100%;
+		padding: 15px 16px 40px;
+		flex-wrap: wrap;
+	}
+	.posts-list {
+		margin-right: 0;
+	}
+	.post-list-item {
+		margin-top: 35px;
+		border-bottom: 3px solid #eeeeee;
+	}
+	.post-contents {
+		margin-top: 8px;
+	}
+	.post-title {
+		margin-top: 8px;
+	}
+	.post-meta {
+		margin-top: 16px;
+	}
+	.post-content {
+		margin-top: 12px;
+	}
+	/* ------------------- БОКОВАЯ ПАНЕЛЬ ----------------------- */
+	.widgets-panel {
+		width: 100%;
+		flex: 0 1 auto;
+		margin-top: 45px;
+	}
+	.widget:nth-child(n+2){
+		margin-top: 50px;
+	}
+	/* ------------------- ИЗДЕЛИЯ ----------------------- */
+	.products {
+		padding: 5px 16px 40px;
+	}
+	.product {
+		width: 100%;
+	}
+	.product:nth-child(even) {
+		margin-left: 0;
+	}
+	.product:nth-child(n+2) {
+		margin-top: 26px;
+	}
+	/* ------------------- ФУТЕР ----------------------- */
+	.social {
+		margin: 0 16px;
+	}
+}
+@media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
+	h2, h3, h4 {
+		font-size: 16px;
+	}
+	.popular-post-item header{
+		margin: auto 15px 18px;
+		padding: 15px;
+	}
+}
+@media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
+	
+	/* ------------------- ТРЕНД ----------------------- */
+	.popular-post-item {
+		height: 248px;
+		width: calc((100% - 5px)/2);
+	}
+	.popular-post-item:nth-child(n+2) {
+		margin-left: 0;
+	}
+	.popular-post-item:nth-child(even) {
+		margin-left: 5px;
+	}
+	.popular-post-item:nth-child(n+3) {
+		margin-top: 5px;
+	}
+}
+@media (max-width: 640px) and (orientation:landscape){
+	
+	/* ------------------- ТРЕНД ----------------------- */
+	.popular-post-item {
+		height: 248px;
+		width: calc((100% - 5px)/2);
+	}
+	.popular-post-item:nth-child(n+2) {
+		margin-left: 0;
+	}
+	.popular-post-item:nth-child(even) {
+		margin-left: 5px;
+	}
+	.popular-post-item:nth-child(n+3) {
+		margin-top: 5px;
+	}
+}
+@media (max-width: 640px) and (orientation: portrait) {
+	
+	/* ------------------- ТРЕНД ----------------------- */
+
+	.popular-post-item {
+		height: 230px;
+		width: 100%;
+	}
+	.popular-post-item:nth-child(even) {
+		margin-left: 0;
+	}
+	.popular-post-item:nth-child(n+2) {
+		margin-top: 5px;
+		margin-left: 0;
+	}
+	.popular-post-item header {
+		width: 100%;
+		margin: auto 16px 16px;
+		padding: 20px 18px 26px;
+	}
+}
